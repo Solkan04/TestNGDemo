@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestOne">
+    <classes>
+      <class name="TestNgDemo.TestNGAnnotationsDemo">
+      	<methods>
+      		<include name="FirstGroupMethodOne"></include>
+      		<include name="FirstGroupMethodTwo"></include>
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestTwo">
+  	<classes>
+  		<class name="TestNgDemo.TestNGAnnotationsDemo">
+  			<methods>
+  				<include name="SecondGroupMethodOne"></include>
+  				<include name="SecondGroupMethodTwo"></include>
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->
+

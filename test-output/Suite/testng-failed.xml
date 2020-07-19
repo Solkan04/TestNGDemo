@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="suite-level-param" value="This is suite level param"/>
+  <test thread-count="5" name="Suite Test3(failed)">
+    <parameter name="suite-level-param" value="Overrding Suite level param"/>
+    <parameter name="test-level-param1" value="This is test level param one"/>
+    <classes>
+      <class name="com.Effent.TestNGAnnotationDemo.ParameterizedTestNG">
+        <methods>
+          <include name="thirdTest"/>
+        </methods>
+      </class> <!-- com.Effent.TestNGAnnotationDemo.ParameterizedTestNG -->
+    </classes>
+  </test> <!-- Suite Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
