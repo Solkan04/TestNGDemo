@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70" started-at="2020-07-17T18:12:07 IST" finished-at="2020-07-17T18:12:07 IST">
+  <suite name="Suite" duration-ms="78" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="70" started-at="2020-07-17T18:12:07 IST" finished-at="2020-07-17T18:12:07 IST">
-      <class name="DataProviderInDifferentClass.DataProviderInOtherClass">
-        <test-method status="PASS" signature="TestMethod(java.lang.String)[pri:0, instance:DataProviderInDifferentClass.DataProviderInOtherClass@7d907bac]" name="TestMethod" duration-ms="8" started-at="2020-07-17T18:12:07 IST" data-provider="data-provider" finished-at="2020-07-17T18:12:07 IST">
+    <test name="Test" duration-ms="78" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
+      <class name="Parameterization.TestOverridingSuite">
+        <test-method status="PASS" signature="thirdTest(java.lang.String, java.lang.String)[pri:0, instance:Parameterization.TestOverridingSuite@1d16f93d]" name="thirdTest" duration-ms="13" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[First Set of Data]]>
+                <![CDATA[Overrding Suite level param]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is test level param one]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMethod -->
-        <test-method status="PASS" signature="TestMethod(java.lang.String)[pri:0, instance:DataProviderInDifferentClass.DataProviderInOtherClass@7d907bac]" name="TestMethod" duration-ms="2" started-at="2020-07-17T18:12:07 IST" data-provider="data-provider" finished-at="2020-07-17T18:12:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Second Set of Data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMethod -->
-      </class> <!-- DataProviderInDifferentClass.DataProviderInOtherClass -->
+        </test-method> <!-- thirdTest -->
+      </class> <!-- Parameterization.TestOverridingSuite -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
