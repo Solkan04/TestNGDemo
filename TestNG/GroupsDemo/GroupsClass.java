@@ -1,8 +1,8 @@
-package TestNgDemo;
+package GroupsDemo;
 
 import org.testng.annotations.Test;
 
-public class GroupsDemo 
+public class GroupsClass 
 {
 	@Test(groups="Bike")
 	public void Test1()

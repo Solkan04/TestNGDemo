@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<parameter name="suite-level-param" value="This is suite level param"></parameter>
-<test thread-count="5" name="Test">
-	<parameter name="suite-level-param" value="Overrding Suite level param"></parameter>
-	<parameter name="test-level-param1" value="This is test level param one"></parameter>
-	<classes>
-		<class name="Parameterization.TestOverridingSuite"/>
-	</classes>
-</test> <!-- Test -->
+	<parameter name="suite-level-param"
+		value="This is suite level param"></parameter>
+	<test thread-count="5" name="Test">
+		<parameter name="suite-level-param"
+			value="Overrding Suite level param"></parameter>
+		<parameter name="test-level-param1"
+			value="This is test level param one"></parameter>
+		<classes>
+			<class name="Parameterization.TestOverridingSuite" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

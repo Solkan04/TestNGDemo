@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="78" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
+  <suite name="Suite" duration-ms="102" started-at="2020-07-24T22:34:37 IST" finished-at="2020-07-24T22:34:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="78" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
-      <class name="Parameterization.TestOverridingSuite">
-        <test-method status="PASS" signature="thirdTest(java.lang.String, java.lang.String)[pri:0, instance:Parameterization.TestOverridingSuite@1d16f93d]" name="thirdTest" duration-ms="13" started-at="2020-07-22T19:39:15 IST" finished-at="2020-07-22T19:39:15 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Overrding Suite level param]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[This is test level param one]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="102" started-at="2020-07-24T22:34:37 IST" finished-at="2020-07-24T22:34:37 IST">
+      <class name="ParallelTesting.ParallelClassOne">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:ParallelTesting.ParallelClassOne@7d907bac]" name="Test1" duration-ms="12" started-at="2020-07-24T22:34:37 IST" finished-at="2020-07-24T22:34:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- thirdTest -->
-      </class> <!-- Parameterization.TestOverridingSuite -->
+        </test-method> <!-- Test1 -->
+      </class> <!-- ParallelTesting.ParallelClassOne -->
+      <class name="ParallelTesting.ParallelClassTwo">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:ParallelTesting.ParallelClassTwo@7791a895]" name="Test1" duration-ms="12" started-at="2020-07-24T22:34:37 IST" finished-at="2020-07-24T22:34:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- ParallelTesting.ParallelClassTwo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
