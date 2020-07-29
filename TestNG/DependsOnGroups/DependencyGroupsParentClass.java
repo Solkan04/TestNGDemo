@@ -1,7 +1,7 @@
 package DependsOnGroups;
 
 import org.testng.annotations.Test;
-
+//Execute DependencyGroupsChildClass
 public class DependencyGroupsParentClass 
 {
 	@Test(groups={"other class"})
