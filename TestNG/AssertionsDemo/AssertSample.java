@@ -18,7 +18,7 @@ public class AssertSample
 		driver.get("https://www.gmail.com");
 		String actualTitle = "Gmail";
 		//Assert.assertEquals(driver.getTitle(), actualTitle, "Title not matched");
-		Assert.assertEquals(driver.getTitle(), actualTitle);
+		Assert.assertEquals(driver.getTitle(), actualTitle);//pass
 		Thread.sleep(2000);
 		driver.close();
 	}
@@ -34,7 +34,7 @@ public class AssertSample
 		String actualTitle = "GoogleMail";
 		Thread.sleep(2000);
 		//Assert.assertEquals(driver.getTitle(), actualTitle, "Title not matched");
-		Assert.assertEquals(driver.getTitle(), actualTitle);
+		Assert.assertEquals(driver.getTitle(), actualTitle);//fails
 		driver.close();
 	}
 }
